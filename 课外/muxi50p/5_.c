@@ -4,7 +4,7 @@ int main (void)
 {
 	int a,b,c,i;
 	for ( a = 3 ; a < 100 ; a++ ){
-		for( b = 2 ; b < a - 1 ; b++){
+		for( b = 2 ; b < a - 1 ; b++){    //¿ÉÅÐ¶Ïµ½sqr£¨a£© 
 			c = a % b ;
 			if (c == 0)
 				break; 

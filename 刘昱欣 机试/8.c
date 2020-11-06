@@ -1,6 +1,6 @@
 #include <stdio.h>
-int f(int a,int b){                     //求两数的最大公因数
-	while( a % b != 0 && b % a != 0){
+int f(int a,int b){                     //求两数的最大公因数     
+	while( a % b != 0 && b % a != 0){     //可用__gcd()函数求最大公因数 在algorithm 库中 
 		if(a > b){
 			a %= b;
 		}

@@ -7,6 +7,7 @@ int fac(int n)
 		s *= n;
 		n--;
 	} 
+	return s; 
  } 
 int main (void)
 {
