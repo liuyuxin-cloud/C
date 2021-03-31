@@ -18,7 +18,7 @@ int main (void)
 		for( i = a ; i > 0 ; i--){              //输出n取逆的数 
 			tmp += x % 10  * pow(10,i - 1);
 			x /= 10;
-		} 
+		}  
 		if( tmp == n)
 			break;
 		n++;
